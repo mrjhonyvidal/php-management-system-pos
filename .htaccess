@@ -1,0 +1,4 @@
+Options All -Indexes
+
+RewriteEngine On
+RewriteRule ^([-a-zA-Z-0-9]+)$ index.php?hub=$1
